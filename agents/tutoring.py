@@ -32,7 +32,7 @@ def answer_tutoring(question, k=3):
     # 2️⃣ Recherche dans Supabase
     # Si tu as une colonne 'embedding' de type `vector(512)`
     results = supabase.rpc(
-        "match_documents",  # ta fonction SQL de recherche vectorielle
+        "match_documents_tutoring",  # ta fonction SQL de recherche vectorielle
         {
             "query_embedding": q_vec,
             "match_count": k
