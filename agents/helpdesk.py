@@ -4,7 +4,7 @@ import requests
 
 # 🔹 Config Supabase
 SUPABASE_URL = "http://127.0.0.1:54321"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImV4cCI6MTk4MzgxMjk5Nn0.EGIM96RAZx35lJzdJsyH-qQwv8Hdp7fsn3W0YpN81IU"  # ⚠ utiliser clé Service Role côté backend uniquement
+SUPABASE_KEY = ""  # ⚠ utiliser clé Service Role côté backend uniquement
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # 🔹 Charger le modèle 512 dimensions
