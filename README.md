@@ -16,7 +16,7 @@
 
 `pip install -r requirements.txt`
 
-####Installation et configuration de Supabase (local)
+#### Installation et configuration de Supabase (local)
 
 1. _Installer la CLI supabase_
 
@@ -42,6 +42,7 @@ Ce lien ouvre Supabase Studio (interface web) où tu peux :
 
 -- Gérer tes policies (RLS)
 
+![Supabase Studio](images/supabase studio.png)
 
 
 
