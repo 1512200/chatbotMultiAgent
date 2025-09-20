@@ -1,4 +1,11 @@
 ## **📘 Documentation – Chatbot Multi-Agent**
+Voila l'interface :
+
+
+
+
+
+
 1. _Cloner le projet_
 
 `git clone git@gitlab.com:elhadjiatikapfa/chatbot_multi-agent.git`
@@ -67,6 +74,13 @@ dans supabase studio il doit créer les tables (sales , tutoring, reclamation)
 Télécharger un modéle (llaMA 3, mistral ...)
 
 `ollama pull llama3` ou `ollama pull mistral`
+
+#### Lancer le serveur
+
+`uvicorn app:main --reload`
+
+Le serveur démarre sur : http://127.0.0.1:8000
+
 
 
 
