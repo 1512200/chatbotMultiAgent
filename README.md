@@ -49,10 +49,25 @@ Ce lien ouvre Supabase Studio (interface web) où tu peux :
 `supabase status`
 
 SUPABASE_URL=http://localhost:54321
+
 SUPABASE_ANON_KEY=...
+
 SUPABASE_SERVICE_ROLE_KEY=...
 
 ➡️ Ces infos doivent être ajoutées dans le projet(agent/) pour se connecter à la base.
+
+dans supabase studio il doit créer les tables (sales , tutoring, reclamation)
+
+#### Installation et utilisation d'un llm local
+
+👉 ollama est un outil qui permet de lancer llaMa local 
+- Télécharge depuis https://ollama.ai
+- installe-le
+
+Télécharger un modéle (llaMA 3, mistral ...)
+
+`ollama pull llama3` ou `ollama pull mistral`
+
 
 
 
