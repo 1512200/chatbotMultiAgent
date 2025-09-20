@@ -1,6 +1,5 @@
 **📘 Documentation – Chatbot Multi-Agent**
 1. Cloner le projet 
-<details><summary>git clone git@gitlab.com:elhadjiatikapfa/chatbot_multi-agent.git</summary>
+`git clone git@gitlab.com:elhadjiatikapfa/chatbot_multi-agent.git`
 
-</details>
 
