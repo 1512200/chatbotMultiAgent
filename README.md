@@ -44,7 +44,15 @@ Ce lien ouvre Supabase Studio (interface web) où tu peux :
 
 ![Supabase Studio](images/supabase studio.png)
 
+4. Variables d'environnement
 
+`supabase status`
+
+SUPABASE_URL=http://localhost:54321
+SUPABASE_ANON_KEY=...
+SUPABASE_SERVICE_ROLE_KEY=...
+
+➡️ Ces infos doivent être ajoutées dans le projet(agent/) pour se connecter à la base.
 
 
 
