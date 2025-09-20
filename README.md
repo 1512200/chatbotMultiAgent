@@ -1,6 +1,24 @@
 ## **📘 Documentation – Chatbot Multi-Agent**
 Voila l'interface :
 
+![Supabase Studio](images/interface.png)
+
+Lorsque l’utilisateur pose une question:
+
+1. 📩 La question reçue  
+2. 🧠 L’intention détectée (exemple : `onboarding`)  
+3. 🤖 L’agent correspondant sélectionné (ici **Onboarding Agent**)  
+4. 📤 La réponse générée par cet agent, renvoyée à l’utilisateur  
+
+Voici un exemple d’exécution dans le terminal :
+
+
+![Supabase Studio](images/serv.png)
+
+
+et voila la réponse: 
+
+![Supabase Studio](images/réponse.png)
 
 
 
