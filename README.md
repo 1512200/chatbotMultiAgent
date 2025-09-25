@@ -67,7 +67,7 @@ Ce lien ouvre Supabase Studio (interface web) où tu peux :
 
 -- Gérer tes policies (RLS)
 
-![Supabase Studio](images/supabase studio.png)
+![Supabase Studio](images/supabaseStudio.png)
 
 4. Variables d'environnement
 
@@ -98,6 +98,7 @@ Télécharger un modéle (llaMA 3, mistral ...)
 `uvicorn app:main --reload`
 
 Le serveur démarre sur : http://127.0.0.1:8000
+
 
 
 
